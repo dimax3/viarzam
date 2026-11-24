@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ВИАРЗАМ 1.0</title>
+</head>
+<body>
+<h1>ВИАРЗАМ 1.0</h1>
+<h2>Система виртуального аватара</h2>
+
+<button id="start" onclick="startCamera()">
+ВКЛЮЧИТЬ КАМЕРУ
+</button>
+
+<div id="screen">
+  <video id="camera" autoplay playsinline muted></video>
+  <canvas id="skeleton"></canvas>
+  <canvas id="avatar"></canvas>
+</div>
+
+<p id="status">КАМЕРА ВЫКЛЮЧЕНА</p>
+
+</body>
+</html>
